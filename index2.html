@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Оформление заказа</h1>
+    <hr>
+    <form>
+                <fieldset>
+                    <legend>Контакты</legend>
+                        <div>
+                            <label for="name">Ваше имя</label> 
+                            <br>
+                            <input type="text" id="name" name="name" placeholder="Гость">
+                        </div>
+                        <div>
+                            <label for="phone">Номер телефона</label>
+                            <br>
+                            <input type="text" id="phone" name="phone" placeholder="+7 (987) 654-32-10" pattern="2-[0-9]{3}-[0-9]{3}">
+                        </div>
+                        <div>
+                            <label>Электронная почта</label>
+                            <br>
+                            <input type="email" id="email" pattern=".+@example\.com" required>
+                        </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Доставка</legend>
+                    <div>
+                        <label for="city">Город</label>
+                        <br>
+                        <input type="text" id="city" name="city" placeholder="Введите город">
+                    </div>
+                    <div>
+                        <label for="street">Улица</label>
+                        <br>
+                        <input type="text" id="street" name="street">
+                    </div>
+                    <div>
+                        <label for="home">Улица</label>
+                        <br>
+                        <input type="number" id="home" name="home" min="1"> 
+                    </div>
+                    <div>
+                        <label for="flat">Квартира</label>
+                        <br>
+                        <input type="number" id="flat" name="flat" min="1">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Оплата</legend>
+                    <div>
+                        <input type="radio" name="payment" id="online" value="online">
+                        <label for="online">Оплата онлайн</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payment" id="card" value="card">
+                        <label for="card">Оплата при получении картой</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payment" id="cash" value="cash">
+                        <label for="cash">Оплата при получении наличными</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Промо</legend>
+                    <div>
+                        <label for="promo">Промо-код</label>
+                        <input class="input1" type="text" id="promo" name="promo" placeholder="D56DE3">
+                    </div>
+                    <div>
+                        <label for="coupon">Купон</label>
+                        <input type="file" id="coupon" name="coupon" title="Купон не выбран">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Комментарий</legend>
+                    <div>
+                        <label for="comments">Оставьте комментарий курьеру</label>
+                        <br>
+                        <textarea name="comments" id="comments" cols="40" rows="3" placeholder="Например, напишите этаж или подъезд:)"></textarea>
+                    </div>
+        </fieldset>
+    </form>
+    <br>
+    <div class="button1">
+        <div><a href="index.html" class="button">Назад</a></div>
+        <div><a href="index3.html" class="button2">Оформить</a></div>
+    </div>
+</body>
+</html>

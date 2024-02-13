@@ -1,0 +1,88 @@
+body {
+    background-image: url(fon3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    background-color: #5b2547; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: white;
+    color: #5b2547;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.button2 {
+    margin-left: 12px;
+    padding: 15px 28px;
+    font-size: 16.5px;
+}
+legend {
+    padding: 10px;
+    font-size: 25px;
+}
+h1 {
+    color: #ba6d9e;    
+    text-shadow: 1.125px 1.25px 1px #000;
+}
+hr {
+    height: 2px;
+    background-color: black;
+}
+fieldset {
+    font-weight: 500;
+    min-height: 50px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+label {
+    font-size: 20px;
+    font-family: Italic;
+}
+legend {
+    color: #5b2547;
+    -webkit-text-stroke: 0.125px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+div {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input {
+    margin-top: 6px;
+    padding: 10px 25px;
+}
+.input1 {
+    margin-left: 15px;
+}

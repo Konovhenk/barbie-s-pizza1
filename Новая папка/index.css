@@ -1,0 +1,83 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+table {
+    width: 100%;
+}
+body {
+background-image: url(fon3.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+h1 {
+    color: #c572a7;    
+    text-shadow: 1.5px 1.5px 2px #000;
+}
+hr {
+    height: 2px;
+    background-color: black;
+}
+legend {
+    padding: 10px;
+    font-size: 25px;
+}
+fieldset {
+    font-weight: 500;
+    min-height: 50px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+label {
+    color: #5b2547;
+    -webkit-text-stroke: 0.25px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.checkbox {
+    background-color: #FABADC;
+    width: 45%;
+    height: 25px;
+}
+img {
+    border-radius: 10px;
+}
+.description {
+    -webkit-text-stroke: 0.25px black;
+    font-size: 15px;
+}
+.weight {
+    font-size: 18px;
+}
+.price {
+    color: #5b2547;
+    -webkit-text-stroke: 0.25px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+a {
+    background-color: #5b2547; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: white;
+    color: #5b2547;
+}
+.button {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.button1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25%;
+}

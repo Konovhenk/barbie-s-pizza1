@@ -1,0 +1,44 @@
+body {
+    background-image: url(fon3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.barbie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    color: #c572a7;    
+    text-shadow: 1.5px 1.5px 2px #000;
+    font-size: 75px;
+}
+.button {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 24%;
+}
+a {
+    background-color: #5b2547; 
+    border: none;
+    color: white;
+    padding: 25px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: white;
+    color: #5b2547;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 25px;
+    color: #000;    
+    text-shadow: 1px 1px 1.5px #c572a7;
+    font-size: 17px;
+}

@@ -1,0 +1,48 @@
+body {
+    background-image: url(fon3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+a {
+     background-color: #5b2547; 
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: white;
+    color: #5b2547;
+}
+.thank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: #c572a7;    
+    text-shadow: 1.5px 1.5px 2px #000;
+    font-size: 75px;
+}
+.tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #000;    
+    text-shadow: 1.5px 1.5px 2px #c572a7;
+    font-size: 20px;
+}
+.appetite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    color: #000;    
+    text-shadow: 1.5px 1.5px 2px #c572a7;
+    font-size: 40px;
+}
